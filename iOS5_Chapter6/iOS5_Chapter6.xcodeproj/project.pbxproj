@@ -7,93 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000BFA4418473342006FB821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA4318473342006FB821 /* UIKit.framework */; };
-		000BFA4618473342006FB821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA4518473342006FB821 /* Foundation.framework */; };
-		000BFA4818473342006FB821 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA4718473342006FB821 /* CoreGraphics.framework */; };
-		000BFA4E18473342006FB821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000BFA4C18473342006FB821 /* InfoPlist.strings */; };
-		000BFA5018473342006FB821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFA4F18473342006FB821 /* main.m */; };
-		000BFA5418473342006FB821 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFA5318473342006FB821 /* BIDAppDelegate.m */; };
-		000BFA5718473342006FB821 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFA5618473342006FB821 /* BIDViewController.m */; };
-		000BFA5A18473342006FB821 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000BFA5818473342006FB821 /* BIDViewController.xib */; };
+		000BFA70184738C3006FB821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA6F184738C3006FB821 /* UIKit.framework */; };
+		000BFA72184738C3006FB821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA71184738C3006FB821 /* Foundation.framework */; };
+		000BFA74184738C3006FB821 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA73184738C3006FB821 /* CoreGraphics.framework */; };
+		000BFA76184738C3006FB821 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BFA75184738C3006FB821 /* CoreData.framework */; };
+		000BFA7C184738C3006FB821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000BFA7A184738C3006FB821 /* InfoPlist.strings */; };
+		000BFA7E184738C3006FB821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFA7D184738C3006FB821 /* main.m */; };
+		000BFA82184738C4006FB821 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFA81184738C4006FB821 /* BIDAppDelegate.m */; };
+		000BFA85184738C4006FB821 /* iOS5_Chapter6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 000BFA83184738C4006FB821 /* iOS5_Chapter6.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000BFA3F18473342006FB821 /* iOS5_Chapter6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS5_Chapter6.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		000BFA4318473342006FB821 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		000BFA4518473342006FB821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		000BFA4718473342006FB821 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		000BFA4B18473342006FB821 /* iOS5_Chapter6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS5_Chapter6-Info.plist"; sourceTree = "<group>"; };
-		000BFA4D18473342006FB821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		000BFA4F18473342006FB821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		000BFA5118473342006FB821 /* iOS5_Chapter6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS5_Chapter6-Prefix.pch"; sourceTree = "<group>"; };
-		000BFA5218473342006FB821 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
-		000BFA5318473342006FB821 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
-		000BFA5518473342006FB821 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
-		000BFA5618473342006FB821 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
-		000BFA5918473342006FB821 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		000BFA6B184738C3006FB821 /* iOS5_Chapter6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS5_Chapter6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000BFA6F184738C3006FB821 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		000BFA71184738C3006FB821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		000BFA73184738C3006FB821 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		000BFA75184738C3006FB821 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		000BFA79184738C3006FB821 /* iOS5_Chapter6-Info.plist */ = {isa = PBXFileReference; path = "iOS5_Chapter6-Info.plist"; sourceTree = "<group>"; };
+		000BFA7B184738C3006FB821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000BFA7D184738C3006FB821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		000BFA7F184738C3006FB821 /* iOS5_Chapter6-Prefix.pch */ = {isa = PBXFileReference; path = "iOS5_Chapter6-Prefix.pch"; sourceTree = "<group>"; };
+		000BFA80184738C4006FB821 /* BIDAppDelegate.h */ = {isa = PBXFileReference; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		000BFA81184738C4006FB821 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		000BFA84184738C4006FB821 /* iOS5_Chapter6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS5_Chapter6.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		000BFA3C18473342006FB821 /* Frameworks */ = {
+		000BFA68184738C3006FB821 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000BFA4418473342006FB821 /* UIKit.framework in Frameworks */,
-				000BFA4618473342006FB821 /* Foundation.framework in Frameworks */,
-				000BFA4818473342006FB821 /* CoreGraphics.framework in Frameworks */,
+				000BFA70184738C3006FB821 /* UIKit.framework in Frameworks */,
+				000BFA72184738C3006FB821 /* Foundation.framework in Frameworks */,
+				000BFA74184738C3006FB821 /* CoreGraphics.framework in Frameworks */,
+				000BFA76184738C3006FB821 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		000BFA3418473341006FB821 = {
+		000BFA60184738C3006FB821 = {
 			isa = PBXGroup;
 			children = (
-				000BFA4918473342006FB821 /* iOS5_Chapter6 */,
-				000BFA4218473342006FB821 /* Frameworks */,
-				000BFA4018473342006FB821 /* Products */,
+				000BFA77184738C3006FB821 /* iOS5_Chapter6 */,
+				000BFA6E184738C3006FB821 /* Frameworks */,
+				000BFA6C184738C3006FB821 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		000BFA4018473342006FB821 /* Products */ = {
+		000BFA6C184738C3006FB821 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000BFA3F18473342006FB821 /* iOS5_Chapter6.app */,
+				000BFA6B184738C3006FB821 /* iOS5_Chapter6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		000BFA4218473342006FB821 /* Frameworks */ = {
+		000BFA6E184738C3006FB821 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				000BFA4318473342006FB821 /* UIKit.framework */,
-				000BFA4518473342006FB821 /* Foundation.framework */,
-				000BFA4718473342006FB821 /* CoreGraphics.framework */,
+				000BFA6F184738C3006FB821 /* UIKit.framework */,
+				000BFA71184738C3006FB821 /* Foundation.framework */,
+				000BFA73184738C3006FB821 /* CoreGraphics.framework */,
+				000BFA75184738C3006FB821 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		000BFA4918473342006FB821 /* iOS5_Chapter6 */ = {
+		000BFA77184738C3006FB821 /* iOS5_Chapter6 */ = {
 			isa = PBXGroup;
 			children = (
-				000BFA5218473342006FB821 /* BIDAppDelegate.h */,
-				000BFA5318473342006FB821 /* BIDAppDelegate.m */,
-				000BFA5518473342006FB821 /* BIDViewController.h */,
-				000BFA5618473342006FB821 /* BIDViewController.m */,
-				000BFA5818473342006FB821 /* BIDViewController.xib */,
-				000BFA4A18473342006FB821 /* Supporting Files */,
+				000BFA80184738C4006FB821 /* BIDAppDelegate.h */,
+				000BFA81184738C4006FB821 /* BIDAppDelegate.m */,
+				000BFA83184738C4006FB821 /* iOS5_Chapter6.xcdatamodeld */,
+				000BFA78184738C3006FB821 /* Supporting Files */,
 			);
 			path = iOS5_Chapter6;
 			sourceTree = "<group>";
 		};
-		000BFA4A18473342006FB821 /* Supporting Files */ = {
+		000BFA78184738C3006FB821 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				000BFA4B18473342006FB821 /* iOS5_Chapter6-Info.plist */,
-				000BFA4C18473342006FB821 /* InfoPlist.strings */,
-				000BFA4F18473342006FB821 /* main.m */,
-				000BFA5118473342006FB821 /* iOS5_Chapter6-Prefix.pch */,
+				000BFA79184738C3006FB821 /* iOS5_Chapter6-Info.plist */,
+				000BFA7A184738C3006FB821 /* InfoPlist.strings */,
+				000BFA7D184738C3006FB821 /* main.m */,
+				000BFA7F184738C3006FB821 /* iOS5_Chapter6-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,13 +100,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000BFA3E18473342006FB821 /* iOS5_Chapter6 */ = {
+		000BFA6A184738C3006FB821 /* iOS5_Chapter6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000BFA5D18473342006FB821 /* Build configuration list for PBXNativeTarget "iOS5_Chapter6" */;
+			buildConfigurationList = 000BFA88184738C4006FB821 /* Build configuration list for PBXNativeTarget "iOS5_Chapter6" */;
 			buildPhases = (
-				000BFA3B18473342006FB821 /* Sources */,
-				000BFA3C18473342006FB821 /* Frameworks */,
-				000BFA3D18473342006FB821 /* Resources */,
+				000BFA67184738C3006FB821 /* Sources */,
+				000BFA68184738C3006FB821 /* Frameworks */,
+				000BFA69184738C3006FB821 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,80 +114,71 @@
 			);
 			name = iOS5_Chapter6;
 			productName = iOS5_Chapter6;
-			productReference = 000BFA3F18473342006FB821 /* iOS5_Chapter6.app */;
+			productReference = 000BFA6B184738C3006FB821 /* iOS5_Chapter6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		000BFA3618473341006FB821 /* Project object */ = {
+		000BFA62184738C3006FB821 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 000BFA3918473341006FB821 /* Build configuration list for PBXProject "iOS5_Chapter6" */;
+			buildConfigurationList = 000BFA65184738C3006FB821 /* Build configuration list for PBXProject "iOS5_Chapter6" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 000BFA3418473341006FB821;
-			productRefGroup = 000BFA4018473342006FB821 /* Products */;
+			mainGroup = 000BFA60184738C3006FB821;
+			productRefGroup = 000BFA6C184738C3006FB821 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000BFA3E18473342006FB821 /* iOS5_Chapter6 */,
+				000BFA6A184738C3006FB821 /* iOS5_Chapter6 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		000BFA3D18473342006FB821 /* Resources */ = {
+		000BFA69184738C3006FB821 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000BFA4E18473342006FB821 /* InfoPlist.strings in Resources */,
-				000BFA5A18473342006FB821 /* BIDViewController.xib in Resources */,
+				000BFA7C184738C3006FB821 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		000BFA3B18473342006FB821 /* Sources */ = {
+		000BFA67184738C3006FB821 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000BFA5018473342006FB821 /* main.m in Sources */,
-				000BFA5418473342006FB821 /* BIDAppDelegate.m in Sources */,
-				000BFA5718473342006FB821 /* BIDViewController.m in Sources */,
+				000BFA7E184738C3006FB821 /* main.m in Sources */,
+				000BFA82184738C4006FB821 /* BIDAppDelegate.m in Sources */,
+				000BFA85184738C4006FB821 /* iOS5_Chapter6.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		000BFA4C18473342006FB821 /* InfoPlist.strings */ = {
+		000BFA7A184738C3006FB821 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				000BFA4D18473342006FB821 /* en */,
+				000BFA7B184738C3006FB821 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		000BFA5818473342006FB821 /* BIDViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				000BFA5918473342006FB821 /* en */,
-			);
-			name = BIDViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		000BFA5B18473342006FB821 /* Debug */ = {
+		000BFA86184738C4006FB821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +203,7 @@
 			};
 			name = Debug;
 		};
-		000BFA5C18473342006FB821 /* Release */ = {
+		000BFA87184738C4006FB821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +223,7 @@
 			};
 			name = Release;
 		};
-		000BFA5E18473342006FB821 /* Debug */ = {
+		000BFA89184738C4006FB821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -244,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		000BFA5F18473342006FB821 /* Release */ = {
+		000BFA8A184738C4006FB821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -258,24 +248,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000BFA3918473341006FB821 /* Build configuration list for PBXProject "iOS5_Chapter6" */ = {
+		000BFA65184738C3006FB821 /* Build configuration list for PBXProject "iOS5_Chapter6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000BFA5B18473342006FB821 /* Debug */,
-				000BFA5C18473342006FB821 /* Release */,
+				000BFA86184738C4006FB821 /* Debug */,
+				000BFA87184738C4006FB821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000BFA5D18473342006FB821 /* Build configuration list for PBXNativeTarget "iOS5_Chapter6" */ = {
+		000BFA88184738C4006FB821 /* Build configuration list for PBXNativeTarget "iOS5_Chapter6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000BFA5E18473342006FB821 /* Debug */,
-				000BFA5F18473342006FB821 /* Release */,
+				000BFA89184738C4006FB821 /* Debug */,
+				000BFA8A184738C4006FB821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		000BFA83184738C4006FB821 /* iOS5_Chapter6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				000BFA84184738C4006FB821 /* iOS5_Chapter6.xcdatamodel */,
+			);
+			currentVersion = 000BFA84184738C4006FB821 /* iOS5_Chapter6.xcdatamodel */;
+			path = iOS5_Chapter6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 000BFA3618473341006FB821 /* Project object */;
+	rootObject = 000BFA62184738C3006FB821 /* Project object */;
 }

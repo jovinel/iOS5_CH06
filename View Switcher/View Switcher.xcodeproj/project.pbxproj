@@ -13,6 +13,12 @@
 		000BFAA51847393B006FB821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000BFAA31847393B006FB821 /* InfoPlist.strings */; };
 		000BFAA71847393B006FB821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFAA61847393B006FB821 /* main.m */; };
 		000BFAAB1847393B006FB821 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BFAAA1847393B006FB821 /* BIDAppDelegate.m */; };
+		007F7FEA184838C30005F0D2 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007F7FE9184838C30005F0D2 /* BlueView.xib */; };
+		00C5063918482C0D00670FF1 /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C5063818482C0D00670FF1 /* BIDSwitchViewController.m */; };
+		00C5063C18482C5800670FF1 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C5063B18482C5800670FF1 /* SwitchView.xib */; };
+		00C5063E18482C8400670FF1 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C5063D18482C8400670FF1 /* YellowView.xib */; };
+		00C506431848359F00670FF1 /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C506421848359F00670FF1 /* BIDBlueViewController.m */; };
+		00C50646184835AE00670FF1 /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C50645184835AE00670FF1 /* BIDYellowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		000BFAA81847393B006FB821 /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
 		000BFAA91847393B006FB821 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
 		000BFAAA1847393B006FB821 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		007F7FE9184838C30005F0D2 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		00C5063718482C0D00670FF1 /* BIDSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSwitchViewController.h; sourceTree = "<group>"; };
+		00C5063818482C0D00670FF1 /* BIDSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSwitchViewController.m; sourceTree = "<group>"; };
+		00C5063B18482C5800670FF1 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		00C5063D18482C8400670FF1 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+		00C506411848359F00670FF1 /* BIDBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBlueViewController.h; sourceTree = "<group>"; };
+		00C506421848359F00670FF1 /* BIDBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBlueViewController.m; sourceTree = "<group>"; };
+		00C50644184835AE00670FF1 /* BIDYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDYellowViewController.h; sourceTree = "<group>"; };
+		00C50645184835AE00670FF1 /* BIDYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDYellowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,15 @@
 				000BFAA91847393B006FB821 /* BIDAppDelegate.h */,
 				000BFAAA1847393B006FB821 /* BIDAppDelegate.m */,
 				000BFAA11847393B006FB821 /* Supporting Files */,
+				00C5063B18482C5800670FF1 /* SwitchView.xib */,
+				00C50644184835AE00670FF1 /* BIDYellowViewController.h */,
+				00C50645184835AE00670FF1 /* BIDYellowViewController.m */,
+				00C506411848359F00670FF1 /* BIDBlueViewController.h */,
+				00C506421848359F00670FF1 /* BIDBlueViewController.m */,
+				00C5063D18482C8400670FF1 /* YellowView.xib */,
+				00C5063718482C0D00670FF1 /* BIDSwitchViewController.h */,
+				00C5063818482C0D00670FF1 /* BIDSwitchViewController.m */,
+				007F7FE9184838C30005F0D2 /* BlueView.xib */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -141,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				000BFAA51847393B006FB821 /* InfoPlist.strings in Resources */,
+				00C5063C18482C5800670FF1 /* SwitchView.xib in Resources */,
+				00C5063E18482C8400670FF1 /* YellowView.xib in Resources */,
+				007F7FEA184838C30005F0D2 /* BlueView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +180,9 @@
 			files = (
 				000BFAA71847393B006FB821 /* main.m in Sources */,
 				000BFAAB1847393B006FB821 /* BIDAppDelegate.m in Sources */,
+				00C5063918482C0D00670FF1 /* BIDSwitchViewController.m in Sources */,
+				00C506431848359F00670FF1 /* BIDBlueViewController.m in Sources */,
+				00C50646184835AE00670FF1 /* BIDYellowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +286,7 @@
 				000BFAB01847393B006FB821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
